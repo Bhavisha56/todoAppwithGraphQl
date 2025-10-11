@@ -1,6 +1,5 @@
 import {ApolloServer,gql} from "apollo-server"
 
-
 const typeDefs=gql`
 
 type Todo{
@@ -18,4 +17,5 @@ addTodo(text:String!):Todo
 updateTodo(id:ID!):Todo
 deleteTodo(id:ID!):Todo
 }
+BISQzFEpVilaWF0x
 `
